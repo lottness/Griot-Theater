@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 50px;
+}
+
+.nav-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 100%; 
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(218, 64, 218);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.month {
+    text-align: center;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: black;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+thead {
+    text-align: center;
+    margin: 100px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+button {
+    background-color: yellow;
+}
+
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
+.showfeats {
+    z-index: 1;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px black,
+                  1px 1px 0px black,
+                  1px -1px 0px black,
+                  -1px -1px 0px black;
+}
